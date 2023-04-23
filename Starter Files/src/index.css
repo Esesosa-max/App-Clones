@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+form {
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+  top: -20px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  /* justify-content: center; */
+  overflow-y: scroll;
+  /* overflow-x: hidden; */
+  align-items: center;
+  top: -20px;
+  position: relative;
+  width: 70%;
+  height: 80vh;
+  background-color: #dbd4cc;
+}
+.message {
+  /* top: 0; */
+  /* left: 20px; */
+}
+.message.right {
+  width: 40%;
+  position: relative;
+  left: 20%;
+  margin-bottom: 10px;
+}
+.message.left {
+  width: 40%;
+  position: relative;
+  right: 20%;
+  margin-bottom: 10px;
+}
+.login-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 70vh;
+}
+.login-form img {
+  width: 300px;
+}
+input {
+  width: 70%;
+}
